@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: "Futura Md BT";
+    color: #e9e9e9;
+}
+body{
+    background-color: #2b2b2b !important;
+}
+
+.f_1{
+    font-family: "nexa";
+}
+header{
+    padding: 30px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+}
+.logo{
+    margin-right: 10px;
+}
+.header_links{
+    display: flex;
+    align-items: center;
+}
+.header_links a, .header_links button{
+    margin-left: 40px;
+}
+
+
+
+
+.grey_color{
+    color: #888787;
+}
+.sec_author{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+a{
+    transition: all 0.5s ease;
+}
+a:hover{
+    color: #A259FF;
+    cursor: pointer;
+}
+.btn_1{
+    background-color: #A259FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    font-size: 16px;
+    border: 2px solid #A259FF;
+}
+.btn_1:hover{
+    background-color: #352449;  
+    color: white;
+    
+}
+.btn_1 img, .btn_2 img, .sec_author img, .btn_3 img{
+    margin-right: 10px;
+}
+.btn_2{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    border: 2px solid #A259FF;
+    border-radius: 15px;
+    color: #A259FF;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.btn_2:hover{
+    background-color: #352449;
+}
+.btn_3{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 30px;
+    border: 2px solid #A259FF;
+    border-radius: 15px;
+    color: #A259FF;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+.btn_3:hover{
+    background-color: #352449;
+    /* border: 2px solid #352449; */
+}
+.btn_4{
+    background-color: #A259FF;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #A259FF;
+    border-radius: 25px;
+    color: white;
+    transition: all 0.5s ease;
+}
+.btn_4:hover{
+    background-color: #9645f8;
+    border: 2px solid #9645f8;
+}
+.inp_1{
+    background-color: #ffffff;
+    padding: 14px 30px 14px 20px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    font-size: 16px;
+    color: #2b2b2b;
+}
+.sec_h1{
+    font-size: 58px;
+    display: block;
+}
+.sec_h2{
+    font-size: 46px;
+    display: block;
+}
+.sec_h3{
+    display: block;
+    font-size: 36px;
+}
+.sec_h4{
+    font-size: 24px;
+    display: block;
+}
+.sec_h4_1{
+    font-size: 20px;
+    display: block;
+}
+.sec_h5{
+    font-size: 16px;
+    display: block;
+}
+.sec_h6{
+    font-size: 14px;
+    color: #888787;
+    display: block;
+}
+.sec_h5_bold{
+    font-size: 16px;
+    font-weight: bolder;
+    display: block; 
+}
+.mar{
+    margin-bottom: 28px;
+}
+.mar_2{
+    margin-bottom: 10px;
+}
+.mar_3{
+    margin-bottom: 5px;
+}
+
+
+
+
+.sec_1{
+    background-size: 100%;
+    background-image: url(./media/ArtistPage/Image_PlaceHolder.png);
+    background-repeat: no-repeat;
+    padding: 20% 200px 10px 200px;
+}
+.sec_1_img{
+    width: 100%;
+}
+.sec_1_img_artist{
+    width: 160px;
+    border: 2px solid #2b2b2b;
+    border-radius: 30px;
+}
+.sec_1_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.sec_1_statistic{
+    display: flex;
+}
+.sec_1_statistic div{
+    margin-right: 60px;
+}
+.sec_1_links img{
+    padding-right: 10px;
+}
+.sec_1_buttons{
+    display: flex;
+}
+.sec_1_buttons .btn_3{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+.sec_2_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.sec_2_info div{
+    display: flex;
+    align-items: center;
+    padding: 20px 85px 15px 85px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+.sec_2_info .sec_h5_bold{
+    background-color: #494949;
+    padding: 6px 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: all 0.5s ease;
+    color: #888787;
+}
+.sec_2_info .sec_h4{
+    color: #888787;
+    transition: all 0.5s ease;
+}
+.sec_2_info div:hover{
+    border-bottom: 2px solid #888787;
+    cursor: pointer;
+}
+.sec_2_info div:hover .sec_h5_bold{
+    background-color: #888787;
+    color: white;
+}
+.sec_2_info div:hover .sec_h4{
+    color: white;
+}
+
+
+
+.sec_2_art_info{
+    padding: 40px 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #383838;
+}
+.sec_2_dis{
+    background-color: #2b2b2b   ;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 0 20px 16px;
+
+}
+.sec_2_img{
+    width: 100%;
+}
+.sec_2_dis_text{
+    padding: 18px;
+}
+.sec_2_prise{
+    display: flex;
+    justify-content: space-between; 
+}
+.sec_author img{
+    width: 30px;
+}
+
+.line_1{
+    border: 1.5px solid #494949;
+}
+.line_2{
+    border: 1.5px solid #2b2b2b;
+}
+
+
+
+
+.footer_btn{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.footer_btn input{
+    z-index: 0; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 15px;
+}
+footer .btn_1{
+    position: relative;
+    right: 15px;
+    z-index: 99;
+}
+
+footer{
+    background-color: #383838;
+    padding: 50px 200px 40px 200px;
+}
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer_logo{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-size: 20px;
+}
+.footer_soc_media{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer_soc_med_link{
+    padding-right: 16px;
+}
+.footer_info .sec_h6{
+    width: 240px;
+}
+hr{
+    border-color: #888787; 
+}
+.copyright{
+    color: #888787;
+}

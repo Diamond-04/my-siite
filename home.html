@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="./media/homepage/Storefront.svg" type="image/x-icon">
+    <title>NFT Market</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header_logo">
+            <img class="logo" src="./media/homepage/Storefront.svg" alt="">
+            <a href="./home.html" class="f_1">NFT Marketplace</a>
+        </div>
+        <div class="header_links">
+            <a href="./marketplace.html">Marketplace</a>
+            <a href="/rankings.html">Rankings</a>
+            <a href="./connect Wallet.html">Connect a wallet</a>
+            <a href="./create_accaunt.html" class="btn_1"><img src="./media/homepage/User.svg" alt="">Sign Up</a>
+        </div>
+    </header>
+
+
+    <section class="sec_1">
+        <div>
+            <span class="sec_h1 mar">Discover <br>Digital art & <br> Collect NFTs</span>
+            <span class="sec_h5 w mar">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</span>
+            <button class="btn_1 mar"><img src="./media/homepage/RocketLaunch.svg" alt="">Get Started</button>
+            <div class="sec_1_statistics">
+                <div><span class="sec_h4 mar_3 f_1">240k+</span><span class="sec_h5">Total Sale</span></div>
+                <div><span class="sec_h4 mar_3 f_1">100k+</span><span class="sec_h5">Auctions</span></div>
+                <div><span class="sec_h4 mar_3 f_1">180k+</span><span class="sec_h5">Artists</span></div>
+            </div>
+        </div>
+        <div class="sec_1_image">
+            <img class="sec_1_img" src="./media/homepage/Image Placeholder.png" alt="">
+            <div class="sec_author_info">
+                <a href="./nft_page.html" class="sec_h4 mar_2">Space Walking</a>
+                <div class="sec_author">
+                    <img src="./media/homepage/avatar.png" alt="">
+                    <a href="./Artist Page.html">Animakid</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="sec_2">
+        <div class="mar">
+            <span class="sec_h3 mar_3">Trending Collection</span>
+            <span class="sec_h5">Ch eckout our weekly updated trending collection.</span>
+        </div>
+        <div class="sec_2_info">
+            <div class="sec_2_collection">
+                <img class="sec_2_big_img mar_2" src="./media/homepage/Primary Photo Placeholder-1.png" alt="">
+                <div class="sec_2_small_img mar_2">
+                    <img src="./media/homepage/Secondary Photo Placeholder-3.png" alt="">
+                    <img src="./media/homepage/Secondary Photo Placeholder-2.png" alt="">
+                    <span class="sec_2_small_img_more sec_h5_bold f_1">1025+</span>
+                </div>
+                <a href="./nft_page.html" class="sec_h4 mar_2">DSGN Animals</a>
+                <div class="sec_author">
+                    <img src="./media/homepage/avatar (1).png" alt="">
+                    <a href="./Artist Page.html">MrFox</a>
+                </div>
+            </div>
+            <div class="sec_2_collection">
+                <img class="sec_2_big_img mar_2" src="./media/homepage/Primary Photo Placeholder.png" alt="">
+                <div class="sec_2_small_img mar_2">
+                    <img src="./media/homepage/Secondary Photo Placeholder.png" alt="">
+                    <img src="./media/homepage/Secondary Photo Placeholder-1.png" alt="">
+                    <span class="sec_2_small_img_more sec_h5_bold f_1">100+</span>
+                </div>
+                <a href="./nft_page.html" class="sec_h4 mar_2">Magic Mushrooms</a>
+                <div class="sec_author">
+                    <img src="./media/homepage/avatar (2).png" alt="">
+                    <a href="./Artist Page.html">Shroomie</a>
+                </div>
+            </div>
+            <div class="sec_2_collection">
+                <img class="sec_2_big_img mar_2" src="./media/homepage/Primary Photo Placeholder-2.png" alt="">
+                <div class="sec_2_small_img mar_2">
+                    <img src="./media/homepage/Secondary Photo Placeholder-4.png" alt="">
+                    <img src="./media/homepage/Secondary Photo Placeholder-5.png" alt="">
+                    <span class="sec_2_small_img_more sec_h5_bold f_1">780+</span>
+                </div>
+                <a href="./nft_page.html" class="sec_h4 mar_2">Disco Machines</a>
+                <div class="sec_author">
+                    <img src="./media/homepage/avatar (3).png" alt="">
+                    <a href="./Artist Page.html">BeKind2Robots</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec_3">
+        <div class="sec_3_header mar">
+            <div>
+                <span class="sec_h3 mar_2">Top creators</span>
+                <span class="sec_h5">Checkout Top Rated Creators on the NFT Marketplace</span>
+            </div>
+            <div>
+                <button class="btn_2"><img src="./media/homepage/RocketLaunch2.svg" alt="">View Rankings</button>
+            </div>
+        </div>
+        <div id="topCreators" class="top_creators"></div>
+    </section>
+
+
+    <section class="sec_4">
+        <span class="sec_h3 mar">Browse Categories</span>
+        <div class="sec_4_info" id="allCategories"></div>
+    </section>
+
+
+    <section class="sec_5">
+
+        <div class="sec_5_header mar">
+            <div>
+                <span class="sec_h3 mar_2">Discover More NFTs</span>
+                <span class="sec_h5">Explore new trending NFTs</span>
+            </div>
+            <div>
+                <button class="btn_2"><img src="./media/homepage/Eye.png" alt="">See All</button>
+            </div>
+        </div>
+
+        <div class="sec_5_info">
+            <div class="sec_5_dis">
+                <img class="sec_5_img" src="./media/homepage/image (1).png" alt="">
+                <div class="sec_5_dis_text">
+                    <a href="./nft_page.html\
+                    " class="sec_h4 mar_3">AstroFiction</a>
+                    <div class="sec_author mar">
+                        <img src="./media/homepage/avatar (1).png" alt="">
+                        <a href="./Artist Page.html" class="sec_h5">Spaceone</a>
+                    </div>
+                    <div class="sec_5_prise">
+                        <div>
+                            <span class="sec_h6 mar_3">Price</span>
+                            <span>1.63 ETH</span>
+                        </div>
+                        <div class=""> 
+                            <span class="sec_h6 mar_3">Highest Bid</span>
+                            <span>0.33 wETH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec_5_dis">
+                <img class="sec_5_img" src="./media/homepage/image (2).png" alt="">
+                <div class="sec_5_dis_text">
+                    <a href="./nft_page.html\
+                    " class="sec_h4 mar_3">Distant Galaxy</a>
+                    <div class="sec_author mar">
+                        <img src="./media/homepage/avatar (2).png" alt="">
+                        <a href="./Artist Page.html" class="sec_h5">MoonDancer</a>
+                    </div>
+                    <div class="sec_5_prise">
+                        <div>
+                            <span class="sec_h6 mar_3">Price</span>
+                            <span>1.63 ETH</span>
+                        </div>
+                        <div class=""> 
+                            <span class="sec_h6 mar_3">Highest Bid</span>
+                            <span>0.33 wETH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec_5_dis">
+                <img class="sec_5_img" src="./media/homepage/image (3).png" alt="">
+                <div class="sec_5_dis_text">
+                    <a href="./nft_page.html\
+                    " class="sec_h4 mar_3">Life On Edena</a>
+                    <div class="sec_author mar">
+                        <img src="./media/homepage/avatar (3).png" alt="">
+                        <a href="./Artist Page.html" class="sec_h5">NebulaKid</a>
+                    </div>
+                    <div class="sec_5_prise">
+                        <div>
+                            <span class="sec_h6 mar_3">Price</span>
+                            <span>1.63 ETH</span>
+                        </div>
+                        <div class=""> 
+                            <span class="sec_h6 mar_3">Highest Bid</span>
+                            <span>0.33 wETH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="sec_6">
+        <img class="sec_6_fon" src="./media/homepage/NFT Info.png" alt="">
+        <div class="sec_6_header">
+            <div class="sec_author mar">
+                <img src="./media/homepage/avatar (1).png" alt="">
+                <a href="./Artist Page.html" class="sec_h5">Shroomie</a>
+            </div>
+            <span class="sec_h2 mar">Magic Mashrooms</span>
+            <a href="./nft_page.html" class="btn_3"><img src="./media/homepage/Eye.png" alt="">See NFT</a>
+        </div>  
+        <div>
+            <div>
+                <div class="timer timer-1 f_1">
+                    <div class="timer__items">
+                      <div class="timer__item timer__days">00</div>
+                      <div class="timer__item timer__hours">00</div>
+                      <div class="timer__item timer__minutes">00</div>
+                      <div class="timer__item timer__seconds">00</div>
+                    </div>
+                    <div class="timer__result"></div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec_7">
+
+        <div>
+            <span class="sec_h3 mar_2">How it works</span>
+            <span class="sec_h5 mar">Find out how to get started</span>
+        </div>
+        <div class="sec_7_info">
+            <div class="sec_7_information">
+                <img class="mar_2" src="./media/homepage/Icon.png" alt="">
+                <span class="sec_h5_bold mar_2">Setup Your wallet</span>
+                <span class="sec_h6">
+                    Set up your wallet of choice. Connect it to the 
+                    Animarket by clicking the wallet icon in the top 
+                    right corner.
+                </span>
+            </div>
+            <div class="sec_7_information">
+                <img class="mar_2" src="./media/homepage/Icon-1.png" alt="">
+                <span class="sec_h5_bold mar_2">Create Collection</span>
+                <span class="sec_h6">
+                    Upload your work and setup your collection. Add a 
+                    description, social links and floor price.
+                </span>
+            </div>
+            <div class="sec_7_information">
+                <img class="mar_2" src="./media/homepage/Icon-2.png" alt="">
+                <span class="sec_h5_bold mar_2">Start Earning</span>
+                <span class="sec_h6">
+                    Choose between auctions and fixed-price listings. 
+                    Start earning by selling your NFTs or trading others.
+                </span>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="sec_8">
+        <div class="sec_8_info">
+            <img src="./media/homepage/Photo.png" alt="">
+            <div class="sec_8_information">
+                <span class="sec_h3 mar">Join our weekly digest</span>
+                <span class="sec_h5 mar">Get exclusive promotions & updates straight to your inbox.</span>
+                <div class="sec_8_btn">
+                    <input class="inp_1" type="text" placeholder="Enter your email here">
+                    <button class="btn_1"><img src="./media/homepage/EnvelopeSimple.png" alt="">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer_info mar">
+            <div>
+                <div class="footer_logo mar">
+                    <img class="logo" src="./media/homepage/Storefront.svg" alt="">
+                    <span class="f_1">NFT Marketplace</span>    
+                </div>
+                <a class="sec_h6 mar_2">NFT marketplace UI created with Anima for Figma.</a>
+                <a class="sec_h6 mar_2">Join our community</a>
+                <div class="footer_soc_media">
+                    <a class="footer_soc_med_link" href="#"><img src="./media/homepage/YoutubeLogo.png" alt=""></a>
+                    <a class="footer_soc_med_link" href="#"><img src="./media/homepage/TwitterLogo.png" alt=""></a>
+                    <a class="footer_soc_med_link" href="#"><img src="./media/homepage/DiscordLogo.png" alt=""></a>
+                    <a class="footer_soc_med_link" href="#"><img src="./media/homepage/InstagramLogo.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <span class="f_1 sec_h4_1 mar">Explore</span>
+                <a href="marketplace.html" class="sec_h6 mar_2">Marketplace</a>
+                <a href="rankings.html" class="sec_h6 mar_2">Rankings</a>
+                <a href="connect Wallet.html" class="sec_h6 mar_2">Connect a wallet</a>
+            </div>
+            <div>
+                <span class="f_1 sec_h4_1 mar">Join our weekly digest</span>
+                <a class="sec_h6 mar">Get exclusive promotions & updates straight to your inbox.</a>
+                <div class="footer_btn">
+                    <input class="inp_1" type="text" placeholder="Enter your email here">
+                    <button class="btn_1">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <hr class="mar_2">
+        <span class="copyright sec_h6">Ⓒ NFT Market. Use this template freely.</span>
+    </footer>
+
+    <script src="home.js"></script>
+
+</body>
+</html>
